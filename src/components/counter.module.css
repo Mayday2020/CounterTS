@@ -1,0 +1,29 @@
+.wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    align-items: center;
+    height: 500px;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+.countBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    background-color: antiquewhite;
+    padding: 30px 10px 0;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.counterBlockChild {
+    padding-bottom: 10px;
+}
+input, button {
+    margin-left: 5px;
+    font-size: 20px;
+}
